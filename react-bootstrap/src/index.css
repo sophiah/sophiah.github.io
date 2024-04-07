@@ -25,6 +25,11 @@ body {
   margin: 0;
 }
 
+.page-header-text {
+  font-weight: 900;
+  font-size: 3.2em;
+}
+
 .introduction .card {
   border: 0;
 }
@@ -41,3 +46,14 @@ body {
   padding: 10px;
 }
 
+.general-card .card {
+  border: 0;
+}
+
+.general-card .card-title {
+  font-weight: 900;
+  font-size: 1.2em;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  border-bottom: 1px solid lightgray;
+}

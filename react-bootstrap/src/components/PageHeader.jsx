@@ -45,9 +45,7 @@ const pageHeaderListItem = {
   border: '0',
   backgroundColor: 'transparent',
   alignItems: 'flex-end',
-  display: 'flex',
-  fontWeight: '900',
-  fontFamily: "'Roboto', sans-serif"
+  display: 'flex'
 }
 
 
@@ -58,7 +56,7 @@ function PageHeader() {
     <div style={bottomStyle}>
         <ListGroup horizontal style={overlayTextStyle}>
           <ListGroup.Item style={pageHeaderListItem}><Image src="/bob.jpeg" style={profileImage} roundedCircle /></ListGroup.Item>
-          <ListGroup.Item style={pageHeaderListItem} class="font-weight-bold"><h1>King Bob</h1></ListGroup.Item>
+          <ListGroup.Item style={pageHeaderListItem} className="page-header-text"><h1>King Bob</h1></ListGroup.Item>
         </ListGroup>
     </div>
     </Navbar>
