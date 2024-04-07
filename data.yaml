@@ -26,6 +26,20 @@ aboutMe:
     Kevin goes into the room, and Bob tells Kevin he misses the tribe. 
     Kevin hands him his teddy bear just before the light goes out.
 
+experience:
+  title: Experience
+  expList:
+    - title: Minions
+      duration: Jun 2015
+      description: |
+        Bob was the only Minion interested in Kevin's journey, after begging him he was able to join. 
+        On the way to their destination, Kevin carried him sometimes.
+
+    - title: Despicable Me 2
+      duration: July 2013
+      description: |
+        Bob first appears during the credits of Despicable Me 2, where is auditioning for the spin-off film Minions along with Kevin and Stuart
+
 courses:
   title: Relevant Courses
   list:
@@ -43,3 +57,8 @@ skills:
     - Advanced Digital Design
     - Visual Communication
     - User Experience Design
+
+contact:
+  title: Contact
+  text: |
+    It's sample page build with react-bootstrap, all information is from https://despicableme.fandom.com/wiki/Bob
