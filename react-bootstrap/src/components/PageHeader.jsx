@@ -12,7 +12,7 @@ const navbarStyle = {
 };
 
 const topStyle = {
-  backgroundColor: '#FBE0C3',
+  backgroundColor: '#E7CA6B',
   flex: '7',
   position: 'relative',
   width: '100%',
