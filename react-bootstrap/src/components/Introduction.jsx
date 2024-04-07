@@ -6,7 +6,7 @@ import Image from 'react-bootstrap/Image';
 function Introduction() {
   return (
     <Row className='introduction'>
-        <Col>
+        <Col sm={8}>
             <Card>
             <Card.Body>
                 <Card.Text>
@@ -20,7 +20,7 @@ function Introduction() {
             </Card.Body>
             </Card>
         </Col>
-        <Col>
+        <Col sm={4}>
             <Card>
             <Card.Body>
                 <Image src="/king-bob.jpeg" rounded />

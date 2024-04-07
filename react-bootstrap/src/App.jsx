@@ -36,6 +36,7 @@ function App() {
         <Col>{data && <GeneralCardList content={data.courses} icon="FcBusinessman" />}</Col>
         <Col>{data && <GeneralCardList content={data.skills} icon="FcBusinessman" />}</Col>
       </Row>
+      {data && <GeneralCard content={data.contact} icon="FcBusinessman" />}
     </Container>
     </>
   );
